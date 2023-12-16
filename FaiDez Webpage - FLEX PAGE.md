@@ -1,6 +1,6 @@
 title: FaiDez Webpage - FLEX PAGE.html
 layout: template
-filename: FaiDez Webpage - FLEX PAGE.html.md
+filename: FaiDez Webpage - FLEX PAGE.md
 
 <!DOCTYPE html>
 <html>
