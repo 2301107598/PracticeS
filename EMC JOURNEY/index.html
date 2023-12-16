@@ -1,0 +1,77 @@
+
+    <div class="w3-col m3">
+      <img src="file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/Screenshot%20(67).png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="CISCO PACKET TRACER <br> The best activity ever! Ma-feel fulfilled gyud ka right after.<br>">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/Screenshot%20(62).png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="HUMAN-COMPUTER-INTERACTION <br> Very insightful kaayu nga lesson especially for future plans when we have jobs or businesses that will cater to the needs and wants of our users and clients.</br>">
+    </div>
+  </div>
+  
+ 	<div class="w3-content w3-container w3-padding-64"> </div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+  <!-- End Portfolio Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="w3-xlarge w3-section">
+	<a href = "https://www.facebook.com/faye.fernandez.12" class="fa fa-facebook-official w3-hover-opacity !important"></a>
+    <a href = "https://www.youtube.com/channel/UC6gDHtAI_IEZCUnS5jCD56w" class="fa fa-youtube-square w3-hover-opacity !important"></a>
+    <a href = "https://www.pinterest.ph/ffaye98/" class="fa fa-pinterest-p w3-hover-opacity !important"></a>
+    <a href = "https://twitter.com/Fai_Dez" class="fa fa-twitter w3-hover-opacity !important"></a>
+    <p class="w3-medium">ALL RIGHTS RESERVED FOR FAIDEZ </p>
+	</div>
+	</div>
+  <!-- End footer -->
+  </footer>
+
+
+</div>
+</div>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+<!-- END PAGE CONTENT -->
+
+</body>
+</html>
