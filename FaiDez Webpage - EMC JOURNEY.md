@@ -1,6 +1,6 @@
 title: FaiDez Webpage - EMC JOURNEY.html
 layout: template
-filename: FaiDez Webpage - EMC JOURNEY.html.md
+filename: FaiDez Webpage - EMC JOURNEY.md
 
 <!DOCTYPE html>
 <html>
