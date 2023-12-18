@@ -37,17 +37,17 @@ footer {text-align: center;}
 
 /* Second image (INTRODUCTION TO COMPUTING) */
 .bgimg-2 {
-  background-image: url("file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/FAIDEZ.jpg");
+  background-image: url("file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/1699077985800.jpg");
   min-height: 400px;}
 
 /* Third image (COMPUTER PROGRAMMING) */
 .bgimg-3 {
-  background-image: url("file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/FAIDEZ.jpg");
+  background-image: url("file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/1699077985800.jpg");
   min-height: 400px;}
   
 /* Fourth image (IT FUNDAMENTALS) */
 .bgimg-4 {
-  background-image: url("file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/FAIDEZ.jpg");
+  background-image: url("file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/1699077985800.jpg");
   min-height: 400px;}
   
 .w3-wide {letter-spacing: 10px;}
@@ -57,12 +57,8 @@ footer {text-align: center;}
 @media only screen and (max-device-width: 1600px) {
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
     background-attachment: scroll;
-    min-height: 400px;
+    min-height: 400px;}
 }
-
-@font only screen and (max-device-width: 1600px) {
-	.w3-wide {letter-spacing: 6px;}
-	}
 
 a:link {
   text-decoration: none;
@@ -76,7 +72,7 @@ a:link {
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
   <!-- Avatar image in top left corner -->
-  <img src="file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/FAIDEZ.jpg" style="width:100%">
+  <img src="file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/1699077985800.jpg" style="width:100%">
   <a href="file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/FaiDez%20Webpage%20-%20HOME.html" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-home w3-xxlarge"></i>
     <p>HOME</p>
@@ -121,11 +117,22 @@ a:link {
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64">
 
-<!-- Second Parallax Image with Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min">
+<!-- Second Parallax Image with Text --> 
+<div class="bgimg-2 w3-display-container w3-opacity-min w3-hide-small" id = "title">
   <div class="w3-display-middle">
     <span class="w3-xxlarge w3-text-white w3-wide">INTRODUCTION TO COMPUTING</span>
   </div>
+</div>
+
+<!-- Second Parallax Image with Text (Hidden on medium and large screens) -->
+<div class="w3-hide-large w3-hide-medium" id="title">
+  <div class="w3-bar w3-black w3-small">
+    <div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xlarge w3-text-white w3-wide">INTRODUCTION TO COMPUTING</span>
+  </div>
+</div>
+</div>
 </div>
 
   <h3 class="w3-center">Introduction to Computing</h3>
@@ -153,10 +160,21 @@ a:link {
 	<div class="w3-content w3-container w3-padding-64"> </div>
 
 <!-- Third Parallax Image with Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
+<div class="bgimg-3 w3-display-container w3-opacity-min w3-hide-small">
   <div class="w3-display-middle">
     <span class="w3-xxlarge w3-text-white w3-wide">COMPUTER PROGRAMMING</span>
   </div>
+</div>
+
+<!-- Third Parallax Image with Text on small screens (Hidden on medium and large screens) -->
+<div class="w3-hide-large w3-hide-medium" id="title">
+  <div class="w3-bar w3-black w3-small">
+    <div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xlarge w3-text-white w3-wide">COMPUTER PROGRAMMING</span>
+  </div>
+</div>
+</div>
 </div>
 
 <div class="w3-content w3-container">
@@ -221,11 +239,22 @@ a:link {
   </div>
  	<div class="w3-content w3-container w3-padding-64"> </div>
 
-<!-- Fourth Parallax Image with Portfolio Text -->
-<div class="bgimg-4 w3-display-container w3-opacity-min">
+<!-- Fourth Parallax Image with Text -->
+<div class="bgimg-4 w3-display-container w3-opacity-min w3-hide-small">
   <div class="w3-display-middle">
     <span class="w3-xxlarge w3-text-white w3-wide">IT FUNDAMENTALS</span>
   </div>
+</div>
+
+<!-- Fourth Parallax Image with Text on small screens (Hidden on medium and large screens) -->
+<div class="w3-hide-large w3-hide-medium" id="title">
+  <div class="w3-bar w3-black w3-small">
+    <div class="bgimg-4 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-text-white w3-wide" style = "font-size: 22px">IT FUNDAMENTALS</span>
+  </div>
+</div>
+</div>
 </div>
 
 <div class="w3-content w3-container">
