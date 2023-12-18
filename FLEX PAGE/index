@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FaiDez Webpage - FLEX PAGE </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+video.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #000;}
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+.footer {icon decoration: none; text-align: center;}
+
+/* Create a Parallax Effect */
+.bgimg-1 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
+
+/* First image (FLEX PAGE) */
+.bgimg-1 {
+  background-image: url("file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/wp5013224.jpg");
+  min-height: 100%;}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1 {
+    background-attachment: scroll;
+    min-height: 400px;}
+}
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/1699077985800.jpg" style="width:100%">
+  <a href="file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/FaiDez%20Webpage%20-%20HOME.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/FaiDez%20Webpage%20-%20EMC%20JOURNEY.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>EMC JOURNEY</p>
+  </a>
+    <a href="file:///C:/Users/Admin/OneDrive/Documents/Fernandez-CC112/FaiDez%20Webpage%20-%20FLEX%20PAGE.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>FLEX PAGE</p>
+  </a>
+  <a href="file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/FaiDez%20Webpage%20-%20HOME.html#contact" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/FaiDez%20Webpage%20-%20HOME.html" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/FaiDez%20Webpage%20-%20EMC%20JOURNEY.html" class="w3-bar-item w3-button" style="width:25% !important">EMC JOURNEY</a>
+    <a href="file:///C:/Users/Admin/OneDrive/Documents/Fernandez-CC112/FaiDez%20Webpage%20-%20FLEX%20PAGE.html" class="w3-bar-item w3-button" style="width:25% !important">FLEX PAGE</a>
+	<a href="file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/FaiDez%20Webpage%20-%20HOME.html#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+
+<!-- First Parallax Image with Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id = "home">
+  <div class="w3-display-middle example">
+    <span class="w3-xxxlarge w3-text-white w3-wide">FLEX PAGE</span>
+  </div>
+</div>
+	
+<br></br>
+
+<!-- Portfolio Section -->
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-padding-64">
+
+<!-- First Parallax Video with Text -->
+<div class="w3-display-container w-3-display-center w3-opacity-min">
+	<video autoplay controls style="width:100%">
+	<source src="file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/InShot_20231208_200110955.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+	</video>
+	 <div class="w3-display-middle example">
+	<span class="w3-xxlarge w3-text-white w3-wide">PAST PROJECTS</span>
+	  </div>
+	</div>
+
+
+<!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+	<h3 class="w3-center">STOP MOTION - NATIONAL SERVICE TRAINING PROGRAM</h3>
+	<p class="w3-center">Very proud of this! I made this with the use of the toys my younger brother had. I sewd the costumes of the legos too. I also felt appreciated when my sisters thought it was cute.</p><br>
+  
+    <video class = "center" width = "750" controls>
+	<source src="file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/NSTP%20StopMotion.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+	</video>
+	
+	<h3 class="w3-center">STICK PUPPET SHOW - BUKIDNON CULTURE STUDIES</h3>
+	<p class="w3-center">It is not exactly perfect but I am proud of this artwork. Its the first time I used Greeenscreen and <br>it was fun drawing those inconsistent-looking characters. The only sad part is the big watermark.</p></br>
+  
+    <video class = "center" width = "750" controls>
+	<source src="file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/BCS%20Stick%20Puppet%20Show.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+	</video>
+	
+	<h3 class="w3-center">VLOG - INTRODUCTION TO COMPUTING</h3>
+	<p class="w3-center">This is funny. It's the video we filmed for Intro to Computing to introduce the "Two types of Softwares". We made it vlog-themed.</p><br>
+  
+    <video class = "center" width = "750" controls>
+	<source src="file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/Types%20of%20Software%20VLOG.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+	</video>
+	
+	<h3 class="w3-center">SHORT FILM - NATIONAL SERVICE TRAINING PROGRAM</h3>
+	<p class="w3-center">When we were tasked to film a video for CPR, me and Danica made it look like a film to add a little spice into it.</p><br>
+  
+    <video class = "center" width = "750" controls>
+	<source src="file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/THE%20UNCONSCIOUS_%20APPLYING%20CPR_short%20film,%20T252-NSTP%20CWTS.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+	</video>
+	
+	<h3 class="w3-center">PODCAST - UNDERSTANDING THE SELF</h3>
+	<p class="w3-center">This is a podcast about Philosophers who talks about their theories on the "Self". We acted as the philosophers ourselves!</p><br>
+  
+    <video class = "center" width = "750" controls>
+	<source src="file:///C:/Users/Admin/OneDrive/Documents/Fernandez-Webpage/VIDEO%20PODCAST%20__%20UNDERSTANDING%20THE%20SELF_%20PHILOSOPHICAL%20DIALOGUES.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+	</video>
+	
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="w3-xlarge w3-section">
+	<a href = "https://www.facebook.com/faye.fernandez.12" class="fa fa-facebook-official w3-hover-opacity !important"></a>
+    <a href = "https://www.youtube.com/channel/UC6gDHtAI_IEZCUnS5jCD56w" class="fa fa-youtube-square w3-hover-opacity !important"></a>
+    <a href = "https://www.pinterest.ph/ffaye98/" class="fa fa-pinterest-p w3-hover-opacity !important"></a>
+    <a href = "https://twitter.com/Fai_Dez" class="fa fa-twitter w3-hover-opacity !important"></a>
+    <p class="w3-medium">ALL RIGHTS RESERVED FOR FAIDEZ </p>
+	</div>
+	</div>
+  <!-- End footer -->
+  </footer>
+
+
+</div>
+</div>
+
+<!-- END PAGE CONTENT -->
+
+</body>
+</html>
